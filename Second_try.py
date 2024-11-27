@@ -1,10 +1,10 @@
-from datetime import *
+﻿from datetime import *
 from calendar import *
 from math import *
 # from socket import RCVALL_SOCKETLEVELONLY 
 
 
-# #�lesanne 1
+# #Ülesanne 1
 # paevadekogus=(monthrange(2024,11)[1]) #calendar modulist
 # print(paevadekogus)
 
@@ -27,7 +27,7 @@ from math import *
 # print(f"Aasta loppuni on {jaak}")
 # print(f"Kuu loppuni on {jaak2}")
 
-# #�lesanne 2
+# #Ülesanne 2
 # vastus1=3 + 8 / (4 - 2) * 4
 # vastus2=3+8 / 4 - 2 * 4
 # vastus3= (3 + 8) / (4 - 2) * 4
@@ -36,13 +36,14 @@ from math import *
 # print(vastus3)
 # print(vastus1,"\n",vastus2,"\n", vastus3)
 
-#�lesanne3
-from math import pi
+#Ülesanne3
+from math import *
+import random
 
 
 try:
-    R=float(input("Sisesta R: ")) #? ??????????? 1.01
-    Sk=pi*R**2 #** ???????
+    R=float(input("Sisesta R: ")) #с десятичными 1.01
+    Sk=pi*R**2 #** степень
     Lk=2*pi*R
     Skv=(2*R)**2
     Lkv=2*R*4
@@ -51,8 +52,9 @@ except:
     print("On vaja number!")
 
 #Variant 2
-R=random() #0.0...1.0
-Sk=pi*R**2 #** ???????
+R=round(random()*100) #0.0...1.0
+print(f"R={R}")
+Sk=pi*R**2 #** степень
 Lk=2*pi*R
 Skv=(2*R)**2
 Lkv=2*R*4
