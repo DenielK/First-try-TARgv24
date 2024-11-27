@@ -36,10 +36,10 @@ from math import *
 # print(vastus3)
 # print(vastus1,"\n",vastus2,"\n", vastus3)
 
-#Ülesanne3
+#Ülesanne 3
 from math import *
-import random
-
+from random import *
+from xml.sax import default_parser_list
 
 try:
     R=float(input("Sisesta R: ")) #с десятичными 1.01
@@ -52,10 +52,19 @@ except:
     print("On vaja number!")
 
 #Variant 2
+
 R=round(random()*100) #0.0...1.0
 print(f"R={R}")
 Sk=pi*R**2 #** степень
 Lk=2*pi*R
 Skv=(2*R)**2
 Lkv=2*R*4
-print(f"Ringi pindala on {Sk}\nRingi umbermoot on {Lk}\nRuudu pindala pn {Skv}\n Ruudu umbermoot on {Lkv}\n") #print(f) alt gr 7 {}
+print(f"Ringi pindala on {Sk}\nRingi umbermoot on {Lk}\nRuudu pindala pn {Skv}\n Ruudu umbermoot on {Lkv}\n")
+
+#Ülesanne 4
+d=2.575 #mündi d sm
+maa=6378 #maa radius km 
+maa*=100000 #Radius sm + maa=maa*10000 = maa*=10000
+Lmaa=2*pi*maa
+kogus=int(Lmaa/d)
+print(f"On vaja {kogus} mundi.\nMeil on vaja{kogus*2} eur")
