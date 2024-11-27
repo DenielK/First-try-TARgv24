@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8e303d84-e3f3-4caa-988f-2d43499e5f39</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>First_try_TARgv24.py</StartupFile>
+    <StartupFile>Second_try.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="First_try_TARgv24.py" />
+    <Compile Include="Second_try.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
