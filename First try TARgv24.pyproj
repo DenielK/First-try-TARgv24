@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8e303d84-e3f3-4caa-988f-2d43499e5f39</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Number4.py</StartupFile>
+    <StartupFile>Sirakus.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="First_try_TARgv24.py" />
+    <Compile Include="Sirakus.py" />
     <Compile Include="Number4.py" />
     <Compile Include="Second_try.py" />
   </ItemGroup>

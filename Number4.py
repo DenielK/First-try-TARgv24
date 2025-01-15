@@ -51,6 +51,3 @@ for read in range(10):
         print(rida, end=" ")
     print()
 print()
-
-#1
-for i in range (10):
