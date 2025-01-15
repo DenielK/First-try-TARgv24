@@ -55,3 +55,9 @@ if v=="jah":
 dublta=list(set(nimed))
 print(dublta)
 # dublikatid 2
+dublta=[]
+for nimi in nimed:
+    if nimi not in dublta:
+            dublta.append(nimi)
+print("Mitte korduv loetelu2.variant")
+print(dublta)
