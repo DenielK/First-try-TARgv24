@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8e303d84-e3f3-4caa-988f-2d43499e5f39</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund6.py</StartupFile>
+    <StartupFile>Euroopariigid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="First_try_TARgv24.py" />
+    <Compile Include="Euroopariigid.py" />
+    <Compile Include="riigid_pealinnad.txt" />
     <Compile Include="Tund6.py" />
     <Compile Include="Sirakus.py" />
     <Compile Include="Number4.py" />
