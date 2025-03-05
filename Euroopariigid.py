@@ -1,9 +1,9 @@
 ﻿from random import *
-def failist_to_dict(f:str):
+def failist_to_dict(f"riigid_pealinnad.txt":str):
     riik_pealinn={}#sõnastik {"Riik":"Pealinn"}'
     pealinn_riik={}
     riigid=[]
-    file=open(f,'riigid_pealinnad',encoding"utf-8-sig")
+    file=open(f,'r'encoding"utf-8-sig")
     for line in file:
         k,v=line.strip().split('-')
         riik_pealinn[k]=v
