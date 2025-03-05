@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8e303d84-e3f3-4caa-988f-2d43499e5f39</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Euroopariigid.py</StartupFile>
+    <StartupFile>module2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Another.py" />
+    <Compile Include="module2.py" />
+    <Compile Include="Tund10Matplotlib.py" />
     <Compile Include="First_try_TARgv24.py" />
     <Compile Include="Euroopariigid.py" />
+    <Compile Include="first.py" />
     <Compile Include="riigid_pealinnad.txt" />
     <Compile Include="Tund6.py" />
     <Compile Include="Sirakus.py" />
     <Compile Include="Number4.py" />
     <Compile Include="Second_try.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
