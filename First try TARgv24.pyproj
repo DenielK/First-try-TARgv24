@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="class1.py" />
     <Compile Include="First_try_TARgv24.py" />
     <Compile Include="Euroopariigid.py" />
     <Compile Include="riigid_pealinnad.txt" />
