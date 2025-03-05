@@ -32,3 +32,5 @@ while true:
 #Veerud riigid-pealinnad
 for key,value in riik_pealinn.items():
     print(key+"-"+value+"\n")
+
+    #test
